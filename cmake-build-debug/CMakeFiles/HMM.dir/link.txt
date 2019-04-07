@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HMM.dir/hw4.cpp.o  -o HMM 
