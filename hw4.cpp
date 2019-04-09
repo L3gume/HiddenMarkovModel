@@ -9,15 +9,15 @@ const float probVector[] =
 
 const float transMat[][4] = {
     {1.f/6.f, 1.f/2.f, 1.f/6.f, 1.f/6.f},
-    {1.f/10.f, 1.f/5.f, 1.f/2.f, 1.f/5.f},
-    {1.f/6.f, 1.f/3.f, 1.f/3.f, 1.f/12.f},
-    {1.f/5.f, 1.f/5.f, 1.f/5.f, 1.f/5.f}};
+    {1.f/9.f, 2.f/9.f, 4.f/9.f, 2.f/9.f},
+    {1.f/10.f, 4.f/10.f, 4.f/10.f, 1.f/10.f},
+    {1.f/4.f, 1.f/4.f, 1.f/4.f, 1.f/4.f}};
 
 const float emissionMat[][5] = {
-    {1.f/2.f, 1.f/6.f, 1.f/6.f, 1.f/6.f, 1.f/6.f},
-    {2.f/5.f, 1.f/10.f, 1.f/5.f, 3.f/10.f, 1.f/10.f},
-    {1.f/6.f, 1.f/2.f, 1.f/6.f, 1.f/12.f, 1.f/12.f},
-    {1.f/5.f, 1.f/5.f, 1.f/5.f, 1.f/5.f, 2.f/5.f}};
+    {3.f/7.f, 1.f/7.f, 1.f/7.f, 1.f/7.f, 1.f/7.f},
+    {4.f/11.f, 1.f/11.f, 2.f/11.f, 3.f/11.f, 1.f/11.f},
+    {2.f/13.f, 7.f/13.f, 2.f/13.f, 1.f/13.f, 1.f/13.f},
+    {1.f/6.f, 1.f/6.f, 1.f/6.f, 1.f/6.f, 2.f/6.f}};
 
 // Forward algorithm
 float observed_seq_prob(const std::vector<Word>& observed_seq,
